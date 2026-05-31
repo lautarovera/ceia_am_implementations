@@ -1,0 +1,24 @@
+name: amia_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - tqdm
+  - pip
+  - scikit-learn
+  - pytorch
+  - pygame
+  - pandas
+  - jupyter
+  - jupyterlab
+  - scipy
+  - numpy
+  - seaborn
+  - python=3.12
+  - pyarrow
+  - matplotlib
+  - ipykernel
+  - graphviz
+  - python-graphviz
+  - pip:
+    - vizdoom
